@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "W4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Q1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Q1-Debug-d743fe9a4ea9ec29c69e.json",
+					"name" : "Q1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Q2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Q2-Debug-e3b8f4a5969e5eac40c0.json",
+					"name" : "Q2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Q3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Q3-Debug-9078eb4f978d133c5995.json",
+					"name" : "Q3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Q4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Q4-Debug-686e697a4022d1522c79.json",
+					"name" : "Q4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Q5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Q5-Debug-cecffc5e4138b8cf15b8.json",
+					"name" : "Q5",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Michael Murphy/Documents/Dev/CS-121/W4/cmake-build-debug",
+		"source" : "C:/Users/Michael Murphy/Documents/Dev/CS-121/W4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
