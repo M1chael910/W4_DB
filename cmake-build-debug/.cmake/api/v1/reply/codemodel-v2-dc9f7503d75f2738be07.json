@@ -18,8 +18,7 @@
 						0,
 						1,
 						2,
-						3,
-						4
+						3
 					]
 				}
 			],
@@ -37,8 +36,7 @@
 						0,
 						1,
 						2,
-						3,
-						4
+						3
 					]
 				}
 			],
@@ -70,13 +68,6 @@
 					"id" : "Q4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Q4-Debug-686e697a4022d1522c79.json",
 					"name" : "Q4",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Q5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Q5-Debug-cecffc5e4138b8cf15b8.json",
-					"name" : "Q5",
 					"projectIndex" : 0
 				}
 			]

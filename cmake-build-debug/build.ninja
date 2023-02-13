@@ -172,39 +172,6 @@ build Q4.exe: CXX_EXECUTABLE_LINKER__Q4_Debug CMakeFiles/Q4.dir/W4_Q4.cpp.obj
   TARGET_IMPLIB = libQ4.dll.a
   TARGET_PDB = Q4.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target Q5
-
-
-#############################################
-# Order-only phony target for Q5
-
-build cmake_object_order_depends_target_Q5: phony || CMakeFiles/Q5.dir
-
-build CMakeFiles/Q5.dir/W4_Q5.cpp.obj: CXX_COMPILER__Q5_Debug C$:/Users/Michael$ Murphy/Documents/Dev/CS-121/W4/W4_Q5.cpp || cmake_object_order_depends_target_Q5
-  DEP_FILE = CMakeFiles\Q5.dir\W4_Q5.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Q5.dir
-  OBJECT_FILE_DIR = CMakeFiles\Q5.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Q5
-
-
-#############################################
-# Link the executable Q5.exe
-
-build Q5.exe: CXX_EXECUTABLE_LINKER__Q5_Debug CMakeFiles/Q5.dir/W4_Q5.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Q5.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Q5.exe
-  TARGET_IMPLIB = libQ5.dll.a
-  TARGET_PDB = Q5.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -239,8 +206,6 @@ build Q3: phony Q3.exe
 
 build Q4: phony Q4.exe
 
-build Q5: phony Q5.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +214,7 @@ build Q5: phony Q5.exe
 #############################################
 # Folder: C:/Users/Michael Murphy/Documents/Dev/CS-121/W4/cmake-build-debug
 
-build all: phony Q1.exe Q2.exe Q3.exe Q4.exe Q5.exe
+build all: phony Q1.exe Q2.exe Q3.exe Q4.exe
 
 # =============================================================================
 # Built-in targets

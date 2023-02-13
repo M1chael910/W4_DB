@@ -1,8 +1,18 @@
+
+/*
+ Michael Murphy
+ W1 Q1
+ 2/12/23
+ CSC 121
+ */
+
+
 #include <iostream>
 
 using namespace std;
 
 string calcGrade(int grade);
+
 // This initializes a function with an integer parameter.
 // Allows us to put the code for the function below the main function
 // Source:: https://www.w3schools.com/cpp/cpp_functions.asp
@@ -11,7 +21,7 @@ int main() {
     cout << "Enter a percentage score 1-100 from a recent assignment" << endl;
     cin >> grade;
     string calculatedGrade = calcGrade(grade);
-    cout << "Your grade is a " << calculatedGrade << "."<< endl;
+    cout << "Your grade is a " << calculatedGrade << "." << endl;
     return 0;
 }
 

@@ -1,11 +1,8 @@
 /*
-Prompt the user to enter a score (1-100)
-
-Enter a Function and using switch / case determine and output the Letter grade
-
-Repeat for 3 scores.
-
-Calculate the average score and then the Final Letter Grade
+ Michael Murphy
+ W1 Q2
+ 2/12/23
+ CSC 121
  */
 
 
@@ -17,9 +14,9 @@ using namespace std;
 
 string calcGrade(int grade);
 
+
 int main() {
     int score1, score2, score3;
-    double average = 0.0;
     cout << "Enter a score 1-100." << endl;
     cin >> score1;
     string Grade1 = calcGrade(score1);
@@ -32,7 +29,7 @@ int main() {
     cin >> score3;
     string Grade3 = calcGrade(score3);
     cout << Grade3 << endl;
-    average = (score1 + score2 + score3) / 3;
+    double average = (score1 + score2 + score3) / 3;
     cout << "Your average score is a " << calcGrade(average) << "." << endl;
     return 0;
 }
